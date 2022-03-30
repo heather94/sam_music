@@ -1,124 +1,198 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Libre Baskerville', sans-serif;
-}
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+  }
 
-img {
-  margin: 10px auto;
-  height: auto;
-  width: auto;
-}
-
-ul {
-  text-align: right;
-}
-
-h1 {
-  font-size: 20px;
-}
-
-/*Sizing*/
-
-.container {
-  margin: 0 auto;
-}
-
-.spacer {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.main {
-    background-color: #ffc200;
-}
-
-/*Header Section*/
-
-.header {
-  padding: 30px 0px 40px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.header li {
-  list-style: none;
-  display: inline-block;
-}
-
-.header li a {
-  color: #333;
-  margin:0;
-  border:0px;
-}
-
-/*Jumbotron Section*/
-
-.jumbotron {
-  background-color: #fff;
-  max-width: 1200px;
-  margin-left: 50px;
-}
-
-.jumbotron h2 {
-  font-size: 50px;
-  margin-bottom: 70px;
-}
-
-.jumbotron h2 span {
-  color:#ffc200;
-}
-
-.jumbotron p {
-  text-shadow: 0 0;
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 0;
-}
-
-/*Banner Section*/
-.banner {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-/*Expertise Section*/
-.cards {
-  background-color: #ffc200;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.col {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#expertise {
-  padding: 20px;
-  background-color: #ffc200;
-  margin: 0;
-  text-align: center;
-}
-
-/*Footer Section*/
-.footer {
-  padding: 60px 0px;
-  background-color: #000;
-  color: #fff;
-}
-
-.footer h3 {
-  font-size: 20px;
-  margin-left: 20px;
-}
-
-.footer p {
-  font-size:12px;
-  margin-bottom: 0;
-  margin-left: 20px;
-}
+  img {
+    margin: 10px auto;
+    height: auto;
+    width: auto;
+  }
+  
+  ul {
+    text-align: right;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 20px;
+    font-style: 'Bebas Neue', cursive;
+  }
+  
+  /*Sizing*/
+  
+  .container {
+    margin: 0 auto;
+  }
+  
+  .spacer {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .main {
+      background-color: #ffffff;
+  }
+  
+  /*Header Section*/
+  
+  .header {
+    padding: 30px 0px 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+  }
+  
+  .header li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+  }
+  
+  .header li a {
+    color: #ffffff;
+    margin:10px;
+    border:0px;
+  }
+  
+  /*Jumbotron Section*/
+  
+  .jumbotron {
+    max-width: 1200px;
+    margin-left: 50px;
+  }
+  
+  .jumbotron h2 {
+    font-size: 50px;
+    margin-bottom: 70px;
+    color: white;
+  }
+  
+  .jumbotron h2 span {
+    color:#00A86B;
+  }
+  
+  .jumbotron p {
+    text-shadow: 0 0;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  /*Expertise Section*/
+  /*.weddings{
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 200px;
+    font-size: 120px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+  }*/
+  img {
+    max-height: 200px;
+    max-width: 300px;
+  }
+  .text-box a {
+    text-decoration: none;
+    color: white;
+  }
+  .weddings{
+    position: relative;
+  }
+  .weddings .text-box {
+    position: relative;
+    bottom: 80px;
+    left: 0px;
+    width: 100px;
+    background-color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .openmic .text-box {
+    position: relative;
+    bottom: 80px;
+    left: 0px;
+    width: 100px;
+    background-color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cadets .text-box {
+    position: relative;
+    bottom: 80px;
+    left: 0px;
+    width: 200px;
+    background-color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .tech .text-box {
+    position: relative;
+    bottom: 80px;
+    left: 0px;
+    width: 200px;
+    background-color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .stage .text-box {
+    position: relative;
+    bottom: 80px;
+    left: 0px;
+    width: 150px;
+    background-color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .session .text-box {
+    position: relative;
+    bottom: 80px;
+    left: 0px;
+    width: 200px;
+    background-color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cards {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #expertise {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /*Footer Section*/
+  .footer {
+    padding: 60px 0px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  .footer p {
+    font-size:12px;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
